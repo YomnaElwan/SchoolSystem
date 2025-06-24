@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SchoolProject.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c638a43625360413bc2a4b5501c01feb8f8f8889")]
 [assembly: System.Reflection.AssemblyProductAttribute("SchoolProject.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SchoolProject.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

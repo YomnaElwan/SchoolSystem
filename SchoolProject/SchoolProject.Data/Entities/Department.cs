@@ -9,6 +9,11 @@ namespace SchoolProject.Data.Entities
 {
     public class Department
     {
+        public Department()
+        {
+            Students = new HashSet<Student>();
+            DepartmentSubjects = new HashSet<DepartmentSubject>();
+        }
         [Key]
         public int DeptId { get; set; }
         [StringLength(500)]

@@ -10,6 +10,10 @@ namespace SchoolProject.Data.Entities
 {
     public class Student
     {
+        public Student()
+        {
+            StudentSubjects = new HashSet<StudentSubject>();
+        }
         [Key]
         public int StudId { get; set; }
         [StringLength(200)]
@@ -17,8 +21,9 @@ namespace SchoolProject.Data.Entities
         public string Address { get; set; }
         [StringLength(500)]
         public string Phone { get; set; }
+        [ForeignKey("Department")]
+
         public int? DID { get; set; }
-        [ForeignKey("DeptId")]
         public virtual Department Department { get; set; }
 
         public virtual ICollection<StudentSubject> StudentSubjects { get; set; }
