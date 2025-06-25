@@ -25,7 +25,7 @@ namespace SchoolProject.Infrastructure.Repositories
         #region Handler
         public async Task<List<Student>> GetStudentsListAsync()
         {
-            return await _dBContext.Students.ToListAsync();
+            return await _dBContext.Students.Include(s=>s.Department).ToListAsync();
         }
 
         

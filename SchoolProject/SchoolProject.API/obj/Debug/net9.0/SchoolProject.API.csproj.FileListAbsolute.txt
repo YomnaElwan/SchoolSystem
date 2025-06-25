@@ -178,3 +178,5 @@ D:\Data [Yomna]\Software Engineer\Clean Architecture\SchoolProject\SchoolProject
 D:\Data [Yomna]\Software Engineer\Clean Architecture\SchoolProject\SchoolProject.API\obj\Debug\net9.0\ref\SchoolProject.API.dll
 D:\Data [Yomna]\Software Engineer\Clean Architecture\SchoolProject\SchoolProject.API\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\Data [Yomna]\Software Engineer\Clean Architecture\SchoolProject\SchoolProject.API\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Data [Yomna]\Software Engineer\Clean Architecture\SchoolProject\SchoolProject.API\bin\Debug\net9.0\AutoMapper.dll
+D:\Data [Yomna]\Software Engineer\Clean Architecture\SchoolProject\SchoolProject.API\bin\Debug\net9.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

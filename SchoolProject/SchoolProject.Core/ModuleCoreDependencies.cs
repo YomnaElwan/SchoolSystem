@@ -9,7 +9,11 @@ namespace SchoolProject.Core
 
 
         {
+
+            //Configuration for MediatR
             service.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(Assembly.GetExecutingAssembly()));
+            //Configuration for AutoMapper
+            service.AddAutoMapper(Assembly.GetExecutingAssembly());
             return service;
         }
     }
