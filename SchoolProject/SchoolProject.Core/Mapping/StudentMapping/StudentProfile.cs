@@ -9,11 +9,11 @@ using System.Threading.Tasks;
 
 namespace SchoolProject.Core.Mapping.StudentMapping
 {
-    public class StudentProfile:Profile
+    public partial class StudentProfile:Profile
     {
         public StudentProfile()  
         {
-            CreateMap<Student, GetStudentListResponse>().ForMember(dest=>dest.DepartmentName,opt=>opt.MapFrom(src=>src.Department.DName)); 
+            GetStudentsListMapping();
         }
 
     }

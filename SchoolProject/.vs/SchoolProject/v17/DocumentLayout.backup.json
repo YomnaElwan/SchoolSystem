@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{C640A60F-52DF-4B21-87CE-9ECEE294B546}|SchoolProject.Core\\SchoolProject.Core.csproj|solutionrelative:schoolproject.core\\mapping\\studentmapping\\studentprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C640A60F-52DF-4B21-87CE-9ECEE294B546}|SchoolProject.Core\\SchoolProject.Core.csproj|d:\\data [yomna]\\software engineer\\clean architecture\\schoolproject\\schoolproject.core\\mapping\\querymapping\\studentprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C640A60F-52DF-4B21-87CE-9ECEE294B546}|SchoolProject.Core\\SchoolProject.Core.csproj|solutionrelative:schoolproject.core\\mapping\\querymapping\\studentprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8B3F6C63-A319-4657-81E1-C11EBA2EE98D}|SchoolProject.Infrastructure\\SchoolProject.Infrastructure.csproj|d:\\data [yomna]\\software engineer\\clean architecture\\schoolproject\\schoolproject.infrastructure\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8B3F6C63-A319-4657-81E1-C11EBA2EE98D}|SchoolProject.Infrastructure\\SchoolProject.Infrastructure.csproj|solutionrelative:schoolproject.infrastructure\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,16 +19,16 @@
       "RelativeMoniker": "D:0:0:{C640A60F-52DF-4B21-87CE-9ECEE294B546}|SchoolProject.Core\\SchoolProject.Core.csproj|solutionrelative:schoolproject.core\\features\\students\\queries\\handlers\\studenthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C640A60F-52DF-4B21-87CE-9ECEE294B546}|SchoolProject.Core\\SchoolProject.Core.csproj|d:\\data [yomna]\\software engineer\\clean architecture\\schoolproject\\schoolproject.core\\modulecoredependencies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C640A60F-52DF-4B21-87CE-9ECEE294B546}|SchoolProject.Core\\SchoolProject.Core.csproj|solutionrelative:schoolproject.core\\modulecoredependencies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C640A60F-52DF-4B21-87CE-9ECEE294B546}|SchoolProject.Core\\SchoolProject.Core.csproj|d:\\data [yomna]\\software engineer\\clean architecture\\schoolproject\\schoolproject.core\\features\\students\\queries\\models\\getstudentlistquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C640A60F-52DF-4B21-87CE-9ECEE294B546}|SchoolProject.Core\\SchoolProject.Core.csproj|solutionrelative:schoolproject.core\\features\\students\\queries\\models\\getstudentlistquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C640A60F-52DF-4B21-87CE-9ECEE294B546}|SchoolProject.Core\\SchoolProject.Core.csproj|d:\\data [yomna]\\software engineer\\clean architecture\\schoolproject\\schoolproject.core\\features\\students\\queries\\results\\getstudentlistresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C640A60F-52DF-4B21-87CE-9ECEE294B546}|SchoolProject.Core\\SchoolProject.Core.csproj|solutionrelative:schoolproject.core\\features\\students\\queries\\results\\getstudentlistresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C640A60F-52DF-4B21-87CE-9ECEE294B546}|SchoolProject.Core\\SchoolProject.Core.csproj|d:\\data [yomna]\\software engineer\\clean architecture\\schoolproject\\schoolproject.core\\modulecoredependencies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C640A60F-52DF-4B21-87CE-9ECEE294B546}|SchoolProject.Core\\SchoolProject.Core.csproj|solutionrelative:schoolproject.core\\modulecoredependencies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
@@ -47,7 +51,19 @@
               "ViewState": "AgIAAAQAAAAAAAAAAAAAAAwAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-25T02:48:46.202Z",
-              "IsPinned": true,
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentProfile.cs",
+              "DocumentMoniker": "D:\\Data [Yomna]\\Software Engineer\\Clean Architecture\\SchoolProject\\SchoolProject.Core\\Mapping\\QueryMapping\\StudentProfile.cs",
+              "RelativeDocumentMoniker": "SchoolProject.Core\\Mapping\\QueryMapping\\StudentProfile.cs",
+              "ToolTip": "D:\\Data [Yomna]\\Software Engineer\\Clean Architecture\\SchoolProject\\SchoolProject.Core\\Mapping\\QueryMapping\\StudentProfile.cs*",
+              "RelativeToolTip": "SchoolProject.Core\\Mapping\\QueryMapping\\StudentProfile.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T00:51:01.122Z",
               "EditorCaption": ""
             },
             {
@@ -64,13 +80,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "StudentRepository.cs",
               "DocumentMoniker": "D:\\Data [Yomna]\\Software Engineer\\Clean Architecture\\SchoolProject\\SchoolProject.Infrastructure\\Repositories\\StudentRepository.cs",
               "RelativeDocumentMoniker": "SchoolProject.Infrastructure\\Repositories\\StudentRepository.cs",
-              "ToolTip": "D:\\Data [Yomna]\\Software Engineer\\Clean Architecture\\SchoolProject\\SchoolProject.Infrastructure\\Repositories\\StudentRepository.cs*",
-              "RelativeToolTip": "SchoolProject.Infrastructure\\Repositories\\StudentRepository.cs*",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwCEAAAAFAAAAAAAAAA==",
+              "ToolTip": "D:\\Data [Yomna]\\Software Engineer\\Clean Architecture\\SchoolProject\\SchoolProject.Infrastructure\\Repositories\\StudentRepository.cs",
+              "RelativeToolTip": "SchoolProject.Infrastructure\\Repositories\\StudentRepository.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwBsAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-25T23:47:03.021Z",
               "EditorCaption": ""
@@ -81,25 +97,24 @@
               "Title": "StudentProfile.cs",
               "DocumentMoniker": "D:\\Data [Yomna]\\Software Engineer\\Clean Architecture\\SchoolProject\\SchoolProject.Core\\Mapping\\StudentMapping\\StudentProfile.cs",
               "RelativeDocumentMoniker": "SchoolProject.Core\\Mapping\\StudentMapping\\StudentProfile.cs",
-              "ToolTip": "D:\\Data [Yomna]\\Software Engineer\\Clean Architecture\\SchoolProject\\SchoolProject.Core\\Mapping\\StudentMapping\\StudentProfile.cs",
-              "RelativeToolTip": "SchoolProject.Core\\Mapping\\StudentMapping\\StudentProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAiwA8AAACHAAAAAAAAAA==",
+              "ToolTip": "D:\\Data [Yomna]\\Software Engineer\\Clean Architecture\\SchoolProject\\SchoolProject.Core\\Mapping\\StudentMapping\\StudentProfile.cs*",
+              "RelativeToolTip": "SchoolProject.Core\\Mapping\\StudentMapping\\StudentProfile.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAiwA8AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-25T23:36:12.94Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "StudentHandler.cs",
               "DocumentMoniker": "D:\\Data [Yomna]\\Software Engineer\\Clean Architecture\\SchoolProject\\SchoolProject.Core\\Features\\Students\\Queries\\Handlers\\StudentHandler.cs",
               "RelativeDocumentMoniker": "SchoolProject.Core\\Features\\Students\\Queries\\Handlers\\StudentHandler.cs",
               "ToolTip": "D:\\Data [Yomna]\\Software Engineer\\Clean Architecture\\SchoolProject\\SchoolProject.Core\\Features\\Students\\Queries\\Handlers\\StudentHandler.cs",
               "RelativeToolTip": "SchoolProject.Core\\Features\\Students\\Queries\\Handlers\\StudentHandler.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAQwCIAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAQwCcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T23:21:32.587Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-25T23:21:32.587Z"
             },
             {
               "$type": "Document",
@@ -111,12 +126,11 @@
               "RelativeToolTip": "SchoolProject.Core\\Features\\Students\\Queries\\Results\\GetStudentListResponse.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T23:18:34.554Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-25T23:18:34.554Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "ModuleCoreDependencies.cs",
               "DocumentMoniker": "D:\\Data [Yomna]\\Software Engineer\\Clean Architecture\\SchoolProject\\SchoolProject.Core\\ModuleCoreDependencies.cs",
               "RelativeDocumentMoniker": "SchoolProject.Core\\ModuleCoreDependencies.cs",
@@ -124,8 +138,7 @@
               "RelativeToolTip": "SchoolProject.Core\\ModuleCoreDependencies.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAAwBIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T22:58:59.395Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-25T22:58:59.395Z"
             }
           ]
         },
