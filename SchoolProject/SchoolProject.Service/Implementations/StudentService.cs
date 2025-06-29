@@ -26,6 +26,7 @@ namespace SchoolProject.Service.Implementations
         #region Handlers
         public async Task<List<Student>> GetStudentsListAsync()
         {
+           
             return await _studentRepository.GetStudentsListAsync();
         }
         #endregion
