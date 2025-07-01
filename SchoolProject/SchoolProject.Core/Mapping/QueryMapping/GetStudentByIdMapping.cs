@@ -10,8 +10,9 @@ namespace SchoolProject.Core.Mapping.StudentMapping
 {
     public partial class StudentProfile
     {
-        public void GetStudentsListMapping() {
-            CreateMap<Student, GetStudentListResponse>().ForMember(dest => dest.DepartmentName, opt => opt.MapFrom(src => src.Department.DName));
+       
+        public void GetSingleStudentMapping() {
+            CreateMap<Student, GetSingleStudentResponse>().ForMember(dest => dest.DepartmentName, opt => opt.MapFrom(src => src.Department.DName));
         }
     }
 }

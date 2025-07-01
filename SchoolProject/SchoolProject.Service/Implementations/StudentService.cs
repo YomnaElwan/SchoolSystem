@@ -5,6 +5,7 @@ using SchoolProject.Infrastructure.Data;
 using SchoolProject.Service.Abstracts;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -21,6 +22,8 @@ namespace SchoolProject.Service.Implementations
         {
             this._studentRepository = studentRepository;
         }
+
+        
         #endregion
 
         #region Handlers
@@ -28,6 +31,14 @@ namespace SchoolProject.Service.Implementations
         {
            
             return await _studentRepository.GetStudentsListAsync();
+        }
+        public async Task<Student> GetStudentByIdAsync(int id)
+        {
+           var student= _studentRepository.GetTableNoTracking()
+                                               .Include(s=>s.Department)
+                                               .Where(s=>s.StudId.Equals(id))
+                                               .FirstOrDefault();
+            return student??null;
         }
         #endregion
 
