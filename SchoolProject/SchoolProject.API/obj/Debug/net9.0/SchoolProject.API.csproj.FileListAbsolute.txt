@@ -6,6 +6,8 @@ D:\Data [Yomna]\Software Engineer\Clean Architecture\SchoolProject\SchoolProject
 D:\Data [Yomna]\Software Engineer\Clean Architecture\SchoolProject\SchoolProject.API\bin\Debug\net9.0\SchoolProject.API.runtimeconfig.json
 D:\Data [Yomna]\Software Engineer\Clean Architecture\SchoolProject\SchoolProject.API\bin\Debug\net9.0\SchoolProject.API.dll
 D:\Data [Yomna]\Software Engineer\Clean Architecture\SchoolProject\SchoolProject.API\bin\Debug\net9.0\SchoolProject.API.pdb
+D:\Data [Yomna]\Software Engineer\Clean Architecture\SchoolProject\SchoolProject.API\bin\Debug\net9.0\AutoMapper.dll
+D:\Data [Yomna]\Software Engineer\Clean Architecture\SchoolProject\SchoolProject.API\bin\Debug\net9.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 D:\Data [Yomna]\Software Engineer\Clean Architecture\SchoolProject\SchoolProject.API\bin\Debug\net9.0\Azure.Core.dll
 D:\Data [Yomna]\Software Engineer\Clean Architecture\SchoolProject\SchoolProject.API\bin\Debug\net9.0\Azure.Identity.dll
 D:\Data [Yomna]\Software Engineer\Clean Architecture\SchoolProject\SchoolProject.API\bin\Debug\net9.0\Humanizer.dll
@@ -48,6 +50,8 @@ D:\Data [Yomna]\Software Engineer\Clean Architecture\SchoolProject\SchoolProject
 D:\Data [Yomna]\Software Engineer\Clean Architecture\SchoolProject\SchoolProject.API\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
 D:\Data [Yomna]\Software Engineer\Clean Architecture\SchoolProject\SchoolProject.API\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
 D:\Data [Yomna]\Software Engineer\Clean Architecture\SchoolProject\SchoolProject.API\bin\Debug\net9.0\Mono.TextTemplating.dll
+D:\Data [Yomna]\Software Engineer\Clean Architecture\SchoolProject\SchoolProject.API\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Data [Yomna]\Software Engineer\Clean Architecture\SchoolProject\SchoolProject.API\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\Data [Yomna]\Software Engineer\Clean Architecture\SchoolProject\SchoolProject.API\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 D:\Data [Yomna]\Software Engineer\Clean Architecture\SchoolProject\SchoolProject.API\bin\Debug\net9.0\System.ClientModel.dll
 D:\Data [Yomna]\Software Engineer\Clean Architecture\SchoolProject\SchoolProject.API\bin\Debug\net9.0\System.CodeDom.dll
@@ -176,7 +180,3 @@ D:\Data [Yomna]\Software Engineer\Clean Architecture\SchoolProject\SchoolProject
 D:\Data [Yomna]\Software Engineer\Clean Architecture\SchoolProject\SchoolProject.API\obj\Debug\net9.0\SchoolProject.API.pdb
 D:\Data [Yomna]\Software Engineer\Clean Architecture\SchoolProject\SchoolProject.API\obj\Debug\net9.0\SchoolProject.API.genruntimeconfig.cache
 D:\Data [Yomna]\Software Engineer\Clean Architecture\SchoolProject\SchoolProject.API\obj\Debug\net9.0\ref\SchoolProject.API.dll
-D:\Data [Yomna]\Software Engineer\Clean Architecture\SchoolProject\SchoolProject.API\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
-D:\Data [Yomna]\Software Engineer\Clean Architecture\SchoolProject\SchoolProject.API\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-D:\Data [Yomna]\Software Engineer\Clean Architecture\SchoolProject\SchoolProject.API\bin\Debug\net9.0\AutoMapper.dll
-D:\Data [Yomna]\Software Engineer\Clean Architecture\SchoolProject\SchoolProject.API\bin\Debug\net9.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

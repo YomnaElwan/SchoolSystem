@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using SchoolProject.Core.Features.Students.Queries.Models;
+using SchoolProject.Data.AppMetaData;
 
 namespace SchoolProject.API.Controllers
 {
@@ -19,16 +20,17 @@ namespace SchoolProject.API.Controllers
         }
         #endregion
        
-        [HttpGet("/Student/List")]
+        [HttpGet(Router.Student.GetList)]
         public async Task<IActionResult> GetStudentsList() {
             var response = await _mediator.Send(new GetStudentListQuery());
             return Ok(response);
         }
-        [HttpGet("/Student/{id}")]
-        public async Task<IActionResult>GetStudentById([FromQuery] int id)
+
+        [HttpGet(Router.Student.GetById)]
+        public async Task<IActionResult> GetStudentById([FromRoute] int id)
         {
-            var respnse = await _mediator.Send(new GetStudentByIdQuery(id));
-            return Ok(respnse);
+            var response = await _mediator.Send(new GetStudentByIdQuery(id));
+            return Ok(response);
         }
     }
 }

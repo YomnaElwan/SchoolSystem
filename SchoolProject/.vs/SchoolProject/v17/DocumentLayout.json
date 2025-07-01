@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\Data [Yomna]\\Software Engineer\\Clean Architecture\\SchoolProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3444A468-B6F3-47C5-B07D-BD678C48DC51}|SchoolProject.API\\SchoolProject.API.csproj|d:\\data [yomna]\\software engineer\\clean architecture\\schoolproject\\schoolproject.api\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3444A468-B6F3-47C5-B07D-BD678C48DC51}|SchoolProject.API\\SchoolProject.API.csproj|solutionrelative:schoolproject.api\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F2EEC155-990E-4187-95D5-E65AACFDE1F4}|SchoolProject.Data\\SchoolProject.Data.csproj|d:\\data [yomna]\\software engineer\\clean architecture\\schoolproject\\schoolproject.data\\appmetadata\\router.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2EEC155-990E-4187-95D5-E65AACFDE1F4}|SchoolProject.Data\\SchoolProject.Data.csproj|solutionrelative:schoolproject.data\\appmetadata\\router.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C640A60F-52DF-4B21-87CE-9ECEE294B546}|SchoolProject.Core\\SchoolProject.Core.csproj|d:\\data [yomna]\\software engineer\\clean architecture\\schoolproject\\schoolproject.core\\features\\students\\queries\\models\\getstudentbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C640A60F-52DF-4B21-87CE-9ECEE294B546}|SchoolProject.Core\\SchoolProject.Core.csproj|solutionrelative:schoolproject.core\\features\\students\\queries\\models\\getstudentbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3444A468-B6F3-47C5-B07D-BD678C48DC51}|SchoolProject.API\\SchoolProject.API.csproj|d:\\data [yomna]\\software engineer\\clean architecture\\schoolproject\\schoolproject.api\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3444A468-B6F3-47C5-B07D-BD678C48DC51}|SchoolProject.API\\SchoolProject.API.csproj|solutionrelative:schoolproject.api\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,28 +34,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GetStudentByIdQuery.cs",
-              "DocumentMoniker": "D:\\Data [Yomna]\\Software Engineer\\Clean Architecture\\SchoolProject\\SchoolProject.Core\\Features\\Students\\Queries\\Models\\GetStudentByIdQuery.cs",
-              "RelativeDocumentMoniker": "SchoolProject.Core\\Features\\Students\\Queries\\Models\\GetStudentByIdQuery.cs",
-              "ToolTip": "D:\\Data [Yomna]\\Software Engineer\\Clean Architecture\\SchoolProject\\SchoolProject.Core\\Features\\Students\\Queries\\Models\\GetStudentByIdQuery.cs",
-              "RelativeToolTip": "SchoolProject.Core\\Features\\Students\\Queries\\Models\\GetStudentByIdQuery.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAwBIAAAAbAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Router.cs",
+              "DocumentMoniker": "D:\\Data [Yomna]\\Software Engineer\\Clean Architecture\\SchoolProject\\SchoolProject.Data\\AppMetaData\\Router.cs",
+              "RelativeDocumentMoniker": "SchoolProject.Data\\AppMetaData\\Router.cs",
+              "ToolTip": "D:\\Data [Yomna]\\Software Engineer\\Clean Architecture\\SchoolProject\\SchoolProject.Data\\AppMetaData\\Router.cs",
+              "RelativeToolTip": "SchoolProject.Data\\AppMetaData\\Router.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T02:02:59.384Z",
+              "WhenOpened": "2025-07-01T19:49:36.393Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "StudentController.cs",
               "DocumentMoniker": "D:\\Data [Yomna]\\Software Engineer\\Clean Architecture\\SchoolProject\\SchoolProject.API\\Controllers\\StudentController.cs",
               "RelativeDocumentMoniker": "SchoolProject.API\\Controllers\\StudentController.cs",
               "ToolTip": "D:\\Data [Yomna]\\Software Engineer\\Clean Architecture\\SchoolProject\\SchoolProject.API\\Controllers\\StudentController.cs",
               "RelativeToolTip": "SchoolProject.API\\Controllers\\StudentController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBsAAABBAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAwBwAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T01:57:55.718Z",
+              "WhenOpened": "2025-07-01T04:13:10.337Z",
               "EditorCaption": ""
             }
           ]
@@ -67,10 +67,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }

@@ -2,7 +2,7 @@
   {
     "ContainingType": "SchoolProject.API.Controllers.StudentController",
     "Method": "GetStudentById",
-    "RelativePath": "Student/{id}",
+    "RelativePath": "api/Student/api/v1/Student/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -10,11 +10,6 @@
       {
         "Name": "id",
         "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "id",
-        "Type": "",
         "IsRequired": true
       }
     ],
@@ -23,7 +18,7 @@
   {
     "ContainingType": "SchoolProject.API.Controllers.StudentController",
     "Method": "GetStudentsList",
-    "RelativePath": "Student/List",
+    "RelativePath": "api/Student/api/v1/Student/List",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
