@@ -17,6 +17,22 @@
   },
   {
     "ContainingType": "SchoolProject.API.Controllers.StudentController",
+    "Method": "AddStudent",
+    "RelativePath": "api/Student/api/v1/Student/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addStudent",
+        "Type": "SchoolProject.Core.Features.Students.Commands.Models.AddStudentCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolProject.API.Controllers.StudentController",
     "Method": "GetStudentsList",
     "RelativePath": "api/Student/api/v1/Student/List",
     "HttpMethod": "GET",

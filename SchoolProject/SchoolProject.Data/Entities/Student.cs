@@ -17,10 +17,11 @@ namespace SchoolProject.Data.Entities
         [Key]
         public int StudId { get; set; }
         [StringLength(200)]
+        [Required]
         public string Name { get; set; }
-        public string Address { get; set; }
+        public string? Address { get; set; }
         [StringLength(500)]
-        public string Phone { get; set; }
+        public string? Phone { get; set; }
         [ForeignKey("Department")]
 
         public int? DID { get; set; }

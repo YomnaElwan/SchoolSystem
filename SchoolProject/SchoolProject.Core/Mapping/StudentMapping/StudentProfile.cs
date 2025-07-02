@@ -15,6 +15,7 @@ namespace SchoolProject.Core.Mapping.StudentMapping
         {
             GetStudentsListMapping();
             GetSingleStudentMapping();
+            AddStudentMapping();
         }
 
     }

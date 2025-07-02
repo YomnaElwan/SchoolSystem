@@ -2,6 +2,7 @@
 using SchoolProject.Data.Entities;
 using SchoolProject.Infrastructure.Abstracts;
 using SchoolProject.Infrastructure.Data;
+using SchoolProject.Infrastructure.Repositories;
 using SchoolProject.Service.Abstracts;
 using System;
 using System.Collections.Generic;
@@ -40,6 +41,19 @@ namespace SchoolProject.Service.Implementations
                                                .FirstOrDefault();
             return student??null;
         }
+
+        public async Task<string> AddStudentAsync(Student student)
+        {
+            var studentExistingNameCheck = _studentRepository.GetTableNoTracking()
+                                                            .Where(s => s.Name.Equals(student.Name))
+                                                            .FirstOrDefault();
+            if (studentExistingNameCheck != null) return "Existing";
+            await _studentRepository.AddAsync(student);
+            return "Student Added Successfully"; 
+        }
+
+
+
         #endregion
 
     }
