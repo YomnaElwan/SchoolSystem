@@ -17,7 +17,7 @@ namespace SchoolProject.Core.Bases
         {
             return new Response<T>
             {
-                StatusCode = System.Net.HttpStatusCode.OK,
+                CheckStatusCode = System.Net.HttpStatusCode.OK,
                 Succeeded = true,
                 Message = "Deleted Successfully"
             };
@@ -26,7 +26,7 @@ namespace SchoolProject.Core.Bases
         {
             return new Response<T>
             {
-                StatusCode = System.Net.HttpStatusCode.OK,
+                CheckStatusCode = System.Net.HttpStatusCode.OK,
                 Succeeded = true,
                 Message = "Successfully Executed",
                 Data = entity,
@@ -37,7 +37,7 @@ namespace SchoolProject.Core.Bases
         {
             return new Response<T>
             {
-                StatusCode = System.Net.HttpStatusCode.Unauthorized,
+                CheckStatusCode = System.Net.HttpStatusCode.Unauthorized,
                 Succeeded = false,
                 Message = "UnAuthorized"
             };
@@ -46,7 +46,7 @@ namespace SchoolProject.Core.Bases
         {
             return new Response<T>
             {
-                StatusCode = System.Net.HttpStatusCode.BadRequest,
+                CheckStatusCode = System.Net.HttpStatusCode.BadRequest,
                 Succeeded = false,
                 Message = message == null ? "Bad Request" : message
             };
@@ -55,7 +55,7 @@ namespace SchoolProject.Core.Bases
         {
             return new Response<T>
             {
-                StatusCode = System.Net.HttpStatusCode.NotFound,
+                CheckStatusCode = System.Net.HttpStatusCode.NotFound,
                 Succeeded = false,
                 Message = message == null ? "Not Found" : message
             };
@@ -65,7 +65,7 @@ namespace SchoolProject.Core.Bases
             return new Response<T>
             {
                 Data = entity,
-                StatusCode = System.Net.HttpStatusCode.Created,
+                CheckStatusCode = System.Net.HttpStatusCode.Created,
                 Succeeded = true,
                 Message = "Created Successfully",
                 Meta = meta
@@ -79,7 +79,7 @@ namespace SchoolProject.Core.Bases
         {
             return new Response<T>
             {
-                StatusCode = System.Net.HttpStatusCode.UnprocessableEntity,
+                CheckStatusCode = System.Net.HttpStatusCode.UnprocessableEntity,
                 Succeeded = false,
                 Message = message == null ? "Un processable Entity" : message
             };
